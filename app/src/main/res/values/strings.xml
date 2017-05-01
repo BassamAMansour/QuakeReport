@@ -16,4 +16,7 @@
 <resources>
     <string name="app_name">Quake Report</string>
     <string name="close_to">Close to</string>
+    <string name="no_data_found">OOPS!\nNo Earthquakes Found :(</string>
+    <string name="no_internet_connection">OOPS!\nSeems like there\'s a problem with your internet connection :(</string>
+    <string name="total_earthquakes_found">Total earthquakes found: </string>
 </resources>

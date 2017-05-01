@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by Bassam on 2/22/2017.
@@ -25,7 +25,7 @@ public class EarthquakeArrayAdapter extends ArrayAdapter<Earthquake> {
     private static final byte SECONDARY_LOCATION_INDEX = 0;
     private static final byte PRIMARY_LOCATION_INDEX = 1;
 
-    public EarthquakeArrayAdapter(Context context, ArrayList<Earthquake> earthquakeArrayList) {
+    public EarthquakeArrayAdapter(Context context, List<Earthquake> earthquakeArrayList) {
         super(context, 0, earthquakeArrayList);
     }
 
